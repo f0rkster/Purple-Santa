@@ -207,11 +207,18 @@ header {
 footer {
     background: var(--dark-purple);
     display: flex;
+    flex: 1;
     height: 250px;
+    justify-content: center;
+    padding: 30px;
 }
 
 footer .logo {
     height: 50px;
     padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
 }
 
