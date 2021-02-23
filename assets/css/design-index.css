@@ -21,12 +21,9 @@ body {
 
 header {
     background: var(--purple);
+    border-bottom: var(--dark-purple);
+    border-bottom-width: 12px;
 }
 
-nav {
-    display: inline;
-}
 
-nav ul {
-    display: inline;
-}
+
