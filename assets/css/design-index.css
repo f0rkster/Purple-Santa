@@ -131,13 +131,27 @@ header {
 .offer .wrap .data button:hover {
     background-color: var(--linen);
     color: var(--dark-purple);
-  
-.story {
-    color: var(--dark-purple);
 }
 
-.story article {
+
+.article-wrap{
+    display: flex;
+}
+.article-wrap article{
     background: var(--lavendar);
-    width: 500px;
-
 }
+
+.cropped-img{
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.article-wrap img {
+    scale: 0.25;
+    margin-left: -430%;
+    margin-top: -220%;
+}
+
+
+
