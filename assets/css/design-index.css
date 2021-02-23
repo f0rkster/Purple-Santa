@@ -17,13 +17,25 @@ body {
     font-family: dejaVu, sans-serif, Helvetica;
     font-size: 1rem;
     background: var(--lavendar-gray);
+    text-decoration: none;
+    list-style-type: none;
 }
 
 header {
     background: var(--purple);
-    border-bottom: var(--dark-purple);
-    border-bottom-width: 12px;
+    color: var(--linen);
+    height: 170px;
 }
 
+header nav {
+    display: flex;
+    flex-direction: row;
+}
 
+header nav img {
+    height: 130px;
+}
 
+header nav div img {
+    height: 100px;
+}
