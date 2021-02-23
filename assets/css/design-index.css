@@ -18,6 +18,8 @@ body {
     font-size: 1rem;
     background: var(--lavendar-gray);
     background-image: url("../images/background.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
     text-decoration: none;
     list-style-type: none;
     padding: 0;
@@ -194,3 +196,15 @@ header {
 #leaf-img img {
     width: 200px;
 }
+
+footer {
+    background: var(--dark-purple);
+    display: flex;
+    height: 250px;
+}
+
+footer .logo {
+    height: 50px;
+    padding: 20px;
+}
+
