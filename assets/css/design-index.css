@@ -203,3 +203,15 @@ header {
 #leaf-img img {
     width: 200px;
 }
+
+footer {
+    background: var(--dark-purple);
+    display: flex;
+    height: 250px;
+}
+
+footer .logo {
+    height: 50px;
+    padding: 20px;
+}
+
