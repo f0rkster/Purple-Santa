@@ -156,19 +156,25 @@ header {
     background: var(--lavendar);
 }
 
-.cropped-img {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-}
-
 .story {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#dice-img img {
+.cropped-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#dice1-img img {
+    width: 400px;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
+#dice2-img img {
     width: 400px;
     margin-left: -100px;
     margin-top: -20px;
