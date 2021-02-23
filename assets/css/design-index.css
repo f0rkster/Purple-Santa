@@ -143,12 +143,40 @@ header {
 
 #dice-img
 {
-    border: 5px solid black;
     width: 200px;
     height: 200px;
 }
-
 #dice-img img {
+    scale: 0.25;
+    margin-left: -430%;
+    margin-top: -220%;
+}
+#woman-img
+{
+    width: 200px;
+    height: 200px;
+}
+#woman-img img {
+    scale: 0.25;
+    margin-left: -630%;
+    margin-top: -0%;
+}
+#christmas-img
+{
+    width: 200px;
+    height: 200px;
+}
+#christmas-img img {
+    scale: 0.25;
+    margin-left: -430%;
+    margin-top: -220%;
+}
+#leaf-img
+{
+    width: 200px;
+    height: 200px;
+}
+#leaf-img img {
     scale: 0.25;
     margin-left: -430%;
     margin-top: -220%;
