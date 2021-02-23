@@ -29,36 +29,46 @@ header {
     height: 170px;
 }
 
-header nav {
+.header-content
+{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
 
-header nav h1 {
+.logo-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.logo-link h1 {
     font-size: 50px;
 }
 
-header nav img {
+.logo-link img {
     height: 130px;
     padding: 20px;
 }
 
-header nav div img {
+.header-images {
+    float: right;
+}
+
+.header-images img {
     height: 70px;
     padding: 7px;
 }
 
-header nav ul {
+.logo-link ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
-header nav ul li a {
+.header-links {
     text-decoration: none;
     padding: 15px;
     color: var(--linen);
@@ -88,4 +98,13 @@ header nav ul li a {
 
 .offer .offer-left img {
     height: 300px;
+}
+
+.story {
+    color: var(--dark-purple);
+}
+
+.story article {
+    background: var(--lavendar);
+    width: 500px;
 }
