@@ -19,11 +19,13 @@ body {
     background: var(--lavendar-gray);
     text-decoration: none;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: var(--linen);
 }
 
 header {
     background: var(--purple);
-    color: var(--linen);
     height: 170px;
 }
 
@@ -31,27 +33,59 @@ header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+header nav h1 {
+    font-size: 50px;
 }
 
 header nav img {
     height: 130px;
+    padding: 20px;
 }
 
 header nav div img {
-    height: 100px;
+    height: 70px;
+    padding: 7px;
 }
 
-header nav ul
-{
+header nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
-header nav ul li a
-{
+header nav ul li a {
     text-decoration: none;
     padding: 15px;
     color: var(--linen);
+    font-size: 35px;
 }
 
+.header-underline {
+    height: 15px;
+    background-color: var(--dark-purple);
+}
+
+.offer {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer h2 {
+    font-size: 30px;
+    color: inherit;
+}
+
+.offer .offer-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.offer .offer-left img {
+    height: 300px;
+}
