@@ -143,6 +143,7 @@ header {
     display: inline-flex;
     align-items: center;
     transition: background-color .2s ease, color .2s ease;
+    text-decoration: none;
 }
 
 .offer .content .wrap .data .price-button .button:hover {
@@ -166,6 +167,7 @@ header {
     padding: 30px;
     margin-right: 50px;
 }
+
 .article-wrap.reverse article {
     margin-right: 0;
     margin-left: 50px;
@@ -188,10 +190,10 @@ header {
     top: 100%;
     margin-top: -90px;
 }
+
 .article-wrap.reverse .connector {
     background-image: url("../images/from_left_to_right.png");
 }
-
 
 .story {
     display: flex;
