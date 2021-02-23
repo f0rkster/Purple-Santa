@@ -101,7 +101,6 @@ header {
     padding: 15px;
     display: block;
     background-color: var(--dark-purple);
-    justify-content: center;
 }
 
 .offer .content .wrap {
@@ -121,10 +120,14 @@ header {
     padding: 15px 0;
 }
 
+.offer .content .wrap .data .price-button .price {
+    font-size: 25px;
+}
+
 .offer .content .wrap .data .price-button .button {
     height: 40px;
     padding: 0 15px;
-    margin-top: 20px;
+    margin-top: 30px;
     border: none;
     border-radius: 5px;
     background: var(--dark-purple);
