@@ -18,6 +18,8 @@ body {
     font-size: 1rem;
     background: var(--lavendar-gray);
     background-image: url("../images/background.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
     text-decoration: none;
     list-style-type: none;
     padding: 0;
@@ -108,6 +110,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.offer .content .wrap .data {
+    max-width: 500px;
 }
 
 .offer .content .wrap .data .price-button {
