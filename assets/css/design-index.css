@@ -124,7 +124,7 @@ header {
 .offer .content .wrap .data .description,
 .offer .content .wrap .data .price-button .price {
     margin: 20px;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .offer .content .wrap .data .price-button .price {
@@ -134,7 +134,7 @@ header {
 .offer .content .wrap .data .price-button .button {
     height: 40px;
     padding: 0 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     border: none;
     border-radius: 5px;
     background: var(--dark-purple);
@@ -235,14 +235,12 @@ footer {
     background: var(--dark-purple);
 }
 
-footer .footer-content
-{
+footer .footer-content {
     display: flex;
     flex: 1;
     height: 150px;
     padding: 30px;
     justify-content: space-around;
-
 }
 
 footer .logo {
@@ -258,8 +256,7 @@ footer .maps {
     height: 150px;
 }
 
-footer .footer-headline{
+footer .footer-headline {
     height: 15px;
     background: var(--linen);
 }
-
