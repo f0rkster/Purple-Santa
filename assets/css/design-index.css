@@ -83,7 +83,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
 }
 
 .offer .content {
@@ -154,52 +153,32 @@ header {
     background: var(--lavendar);
 }
 
-#dice-img {
+.cropped-img
+{
     border: 5px solid black;
     width: 200px;
     height: 200px;
+    overflow: hidden;
 }
+
 
 #dice-img img {
-    scale: 0.25;
-    margin-left: -430%;
-    margin-top: -220%;
-    margin-bottom: -300%;
-}
-
-#woman-img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid red;
-    overflow: hidden;
+    width: 400px;
+    margin-left: -100px;
+    margin-top: -20px;
 }
 
 #woman-img img {
-    scale: 1;
+    width: 350px;
+    margin-top: -10px;
 }
 
-#christmas-img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid green;
-    overflow: hidden;
-}
 
 #christmas-img img {
-    scale: 0.25;
-    margin-left: -430%;
-    margin-top: -220%;
-}
-
-#leaf-img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid blue;
-    overflow: hidden;
+    width: 350px;
+    margin-left: -20px;
 }
 
 #leaf-img img {
-    scale: 0.25;
-    margin-left: -430%;
-    margin-top: -220%;
+    width: 200px;
 }
