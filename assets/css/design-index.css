@@ -206,11 +206,16 @@ header {
 
 footer {
     background: var(--dark-purple);
+}
+
+footer .footer-content
+{
     display: flex;
     flex: 1;
     height: 150px;
-    justify-content: center;
     padding: 30px;
+    justify-content: space-around;
+
 }
 
 footer .logo {
@@ -224,5 +229,10 @@ footer ul {
 
 footer .maps {
     height: 150px;
+}
+
+footer .footer-headline{
+    height: 15px;
+    background: var(--linen);
 }
 
