@@ -83,6 +83,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
 }
 
 .offer .content {
@@ -95,24 +96,34 @@ header {
 
 .offer h2 {
     font-size: 30px;
-    color: inherit;
+    margin: 20px;
+    padding: 15px;
+    display: box;
+    background-color: var(--dark-purple);
 }
 
 .offer .content .wrap {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .offer .content img {
     height: 300px;
 }
 
-.offer .content .wrap .data .description,
-.offer .content .wrap .data .price {
-    margin: 20px;
+.offer .content .wrap .data .price-button {
+    display: flex;
+    flex-direction: row;
 }
 
-.offer .content .wrap .data .button {
+.offer .content .wrap .data .description,
+.offer .content .wrap .data .price-button .price {
+    margin: 20px;
+    padding: 15px 0;
+}
+
+.offer .content .wrap .data .price-button .button {
     height: 40px;
     padding: 0 15px;
     margin-top: 20px;
@@ -126,7 +137,7 @@ header {
     transition: background-color .2s ease, color .2s ease;
 }
 
-.offer .content .wrap .data .button:hover {
+.offer .content .wrap .data .price-button .button:hover {
     background-color: var(--linen);
     color: var(--dark-purple);
 }
@@ -135,17 +146,15 @@ header {
     display: flex;
 }
 
-.article-wrap article{
+.article-wrap article {
     width: 1000px;
 }
-
 
 .article-wrap article {
     background: var(--lavendar);
 }
 
-#dice-img
-{
+#dice-img {
     border: 5px solid black;
     width: 200px;
     height: 200px;
@@ -164,6 +173,7 @@ header {
     border: 5px solid red;
     overflow: hidden;
 }
+
 #woman-img img {
     scale: 1;
 }
@@ -186,7 +196,6 @@ header {
     height: 200px;
     border: 5px solid blue;
     overflow: hidden;
-
 }
 
 #leaf-img img {
