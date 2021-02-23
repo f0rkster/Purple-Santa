@@ -143,11 +143,13 @@ header {
 .article-wrap {
     display: flex;
     padding: 100px;
+    align-items: center;
 }
 
 .article-wrap article {
     width: 800px;
     padding: 30px;
+    margin-right: 50px;
 }
 
 .article-wrap article {
