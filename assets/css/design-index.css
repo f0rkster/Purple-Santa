@@ -9,3 +9,16 @@
 body {
     background: var(--lavendar-gray);
 }
+
+
+header {
+    background: var(--purple);
+}
+
+nav {
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+}
