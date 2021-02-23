@@ -83,6 +83,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
 }
 
 .offer .content {
@@ -95,9 +96,9 @@ header {
 
 .offer h2 {
     font-size: 30px;
-    margin: 20px;
+    margin-top: -7px;
     padding: 15px;
-    display: box;
+    display: block;
     background-color: var(--dark-purple);
 }
 
@@ -153,14 +154,12 @@ header {
     background: var(--lavendar);
 }
 
-.cropped-img
-{
+.cropped-img {
     border: 5px solid black;
     width: 200px;
     height: 200px;
     overflow: hidden;
 }
-
 
 #dice-img img {
     width: 400px;
@@ -172,7 +171,6 @@ header {
     width: 350px;
     margin-top: -10px;
 }
-
 
 #christmas-img img {
     width: 350px;
