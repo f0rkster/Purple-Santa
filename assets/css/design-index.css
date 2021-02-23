@@ -81,9 +81,17 @@ header {
 }
 
 .offer {
-    width: 700px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.offer .content {
+    width: 700px;
+    background-color: var(--purple);
+    border: var(--dark-purple);
+    border-style: solid;
+    border-width: 10px;
 }
 
 .offer h2 {
@@ -91,15 +99,39 @@ header {
     color: inherit;
 }
 
-.offer .offer-wrap {
+.offer .wrap {
     display: flex;
     flex-direction: row;
 }
 
-.offer .offer-left img {
+.offer .offer-img img {
     height: 300px;
 }
 
+
+.offer .wrap .data .description,
+.offer .wrap .data .price {
+    margin: 20px;
+}
+
+.offer .wrap .data button {
+    height: 40px;
+    padding: 0 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background: var(--dark-purple);
+    color: var(--linen);
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color .2s ease, color .2s ease;
+}
+
+.offer .wrap .data button:hover {
+    background-color: var(--linen);
+    color: var(--dark-purple);
+  
 .story {
     color: var(--dark-purple);
 }
@@ -107,4 +139,5 @@ header {
 .story article {
     background: var(--lavendar);
     width: 500px;
+
 }
