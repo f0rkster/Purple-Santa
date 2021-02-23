@@ -154,6 +154,11 @@ header {
     display: flex;
     padding: 100px;
     align-items: center;
+    position: relative;
+}
+
+.article-wrap.reverse {
+    flex-direction: row-reverse;
 }
 
 .article-wrap article {
@@ -161,10 +166,32 @@ header {
     padding: 30px;
     margin-right: 50px;
 }
+.article-wrap.reverse article {
+    margin-right: 0;
+    margin-left: 50px;
+}
 
 .article-wrap article {
     background: var(--lavendar);
 }
+
+.article-wrap .connector {
+    position: absolute;
+    height: 180px;
+    background-image: url("../images/from_right_to_left.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 920px;
+    left: 50%;
+    margin-left: -460px;
+    top: 100%;
+    margin-top: -90px;
+}
+.article-wrap.reverse .connector {
+    background-image: url("../images/from_left_to_right.png");
+}
+
 
 .story {
     display: flex;
