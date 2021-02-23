@@ -210,6 +210,7 @@ header {
     width: 200px;
     height: 200px;
     overflow: hidden;
+    transition: transform .2s;
 }
 
 #dice1-img img {
@@ -263,17 +264,33 @@ header {
     width: 400px;
     margin-left: -100px;
     margin-top: -20px;
+    transition: transform .2s;
 }
 
 #woman-img img {
     width: 350px;
     margin-top: -10px;
+    transition: transform 2s;
+}
+
+#woman-img img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 #christmas-img img {
     width: 350px;
     margin-left: -20px;
+    transition: transform 2s;
 }
+
+#christmas-img img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
 
 #leaf-img img {
     width: 200px;
