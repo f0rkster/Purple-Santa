@@ -141,13 +141,14 @@ header {
     background: var(--lavendar);
 }
 
-.cropped-img{
+#dice-img
+{
     border: 5px solid black;
     width: 200px;
     height: 200px;
 }
 
-.article-wrap img {
+#dice-img img {
     scale: 0.25;
     margin-left: -430%;
     margin-top: -220%;
