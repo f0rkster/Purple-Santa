@@ -75,6 +75,11 @@ header {
     padding: 15px;
     color: var(--linen);
     font-size: 35px;
+    transition: color .2s ease;
+}
+
+.header-links:hover {
+    color: var(--dark-purple);
 }
 
 .header-underline {
