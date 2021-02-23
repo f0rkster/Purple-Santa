@@ -1,0 +1,11 @@
+:root {
+    --dark-purple:   #242038;
+    --purple:        #725AC1;
+    --lavendar:      #8D86C9;
+    --lavendar-gray: #CACACE;
+    --linen:         #F7ECE1;
+}
+
+body {
+    background: var(--lavendar-gray);
+}

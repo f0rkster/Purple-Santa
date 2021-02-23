@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple-Santa</title>
+
+    <link href="assets/css/design-index.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <img src="assets/images/header_logo.png">
+        <h1><a>Purple-Santa</a></h1>
+        <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Events</li>
+            <li>FAQ</li>
+        </ul>
+    </nav>
+</header>
+<div id="page-container">
+    <? require_once SHAREDPATH . "header.php" ?>
+    <div id="content-wrap">
+        <?php
+
+                // this method will render the views of the called action
+                // for this the the file in the views directory will be included
+                $controller->render();
+        ?>
+    </div>
+    <? require_once SHAREDPATH .  "footer.php" ?>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>
