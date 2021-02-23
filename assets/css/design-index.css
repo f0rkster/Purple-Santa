@@ -92,6 +92,7 @@ header {
     border: var(--dark-purple);
     border-style: solid;
     border-width: 10px;
+    align-items: center;
 }
 
 .offer h2 {
@@ -100,16 +101,13 @@ header {
     padding: 15px;
     display: block;
     background-color: var(--dark-purple);
+    justify-content: center;
 }
 
 .offer .content .wrap {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-}
-
-.offer .content img {
-    height: 300px;
 }
 
 .offer .content .wrap .data .price-button {
