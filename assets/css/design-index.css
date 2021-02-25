@@ -56,7 +56,7 @@ header {
 }
 
 .header-images {
-    float: right;
+    margin-right: 30px;
 }
 
 .header-images img {
